@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: 3-flux-git-repo-config
+  name: 4-flux-managed-k8s
   namespace: flux-system
 spec:
   interval: 1m0s
@@ -9,4 +9,4 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/kalebpederson/aks-policy-governance-3-flux-git-repo-config.git
+  url: https://github.com/kalebpederson/aks-policy-governance-l-flux-managed-k8s.git
