@@ -9,4 +9,4 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/kalebpederson/aks-policy-governance-l-flux-managed-k8s.git
+  url: https://github.com/kalebpederson/aks-policy-governance-4-flux-managed-k8s.git
